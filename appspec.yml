@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html/doc/node-bulletin-board/bulletin-board-app
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/crf2.sh
       timeout: 300
       runas: root
