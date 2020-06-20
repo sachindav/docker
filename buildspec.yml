@@ -1,0 +1,7 @@
+version: 0.2
+
+artifacts:
+  files:
+    - '**/*'
+  name: dev-backend-build-artifact
+  discard-paths: no 
