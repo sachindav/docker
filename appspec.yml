@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/doc/node-bulletin-board/bulletin-board-app
+    destination: /var/www/html/dock
