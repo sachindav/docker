@@ -31,12 +31,11 @@ node {
                 echo "Trying to Push Docker Build to DockerHub"
     }
 
-/*
     stage('Trig') {
 
        build job: 'dock', propagate: true, wait: true
     }
-*/
+
 
 
 }
